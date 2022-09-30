@@ -19,6 +19,7 @@ This mod is not affiliated with Among Us or Innersloth LLC, and the content cont
 
 ## 開発者
 - [しゅれ](https://github.com/oshurecat) ([Twitter](https://twitter.com/syure_soncho))/([YouTube](https://www.youtube.com/channel/UCvMjW7DUM0b_TA5TRjJ3BMw))
+- [しらたま](https://github.com/Siratamadesu)([Twitter])/([YouTube](https://youtube.com/channel/UCBGhL8rBMCsbA5Ml6kW_l8A))
 
 ## 内容
 ### コマンド

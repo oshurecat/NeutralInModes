@@ -5,3 +5,10 @@ This mod is not affiliated with Among Us or Innersloth LLC, and the content cont
  © Innersloth LLC. <br>
 訳:これはInnerslothが作ったものじゃなくて個人が作ったものなのでInnerslothは関係ないです。あとこの中にある素材の一部はInnerslothのものです。<br>
 また、このMODについてInnerslothに問い合わせるのはお控えください。
+
+##クレジット
+(参考にさせていただきました。ありがとうございます。)
+
+##開発者
+- [しゅれ](https://github.com/oshurecat)/[Twitter](https://twitter.com/syure_soncho)
+

@@ -10,5 +10,5 @@ This mod is not affiliated with Among Us or Innersloth LLC, and the content cont
 (参考にさせていただきました。ありがとうございます。)
 
 ##開発者
-- [しゅれ](https://github.com/oshurecat)([Twitter])(https://twitter.com/syure_soncho)
+- [しゅれ](https://github.com/oshurecat)([Twitter](https://twitter.com/syure_soncho)
 

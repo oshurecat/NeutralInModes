@@ -13,6 +13,7 @@ This mod is not affiliated with Among Us or Innersloth LLC, and the content cont
 
 ## クレジット
 (参考にさせていただきました。ありがとうございます。)
+- [BepInEx](https://github.com/BepInEx/BepInEx) ※MODの適応のために使用。
 
 ## 開発者
 - [しゅれ](https://github.com/oshurecat) ([Twitter](https://twitter.com/syure_soncho))/([YouTube](https://www.youtube.com/channel/UCvMjW7DUM0b_TA5TRjJ3BMw))

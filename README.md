@@ -23,6 +23,7 @@ This mod is not affiliated with Among Us or Innersloth LLC, and the content cont
 ## 内容
 ### コマンド
 ### 役職
+### モード
 ### 設定
 
 

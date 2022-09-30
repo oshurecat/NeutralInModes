@@ -15,7 +15,6 @@ This mod is not affiliated with Among Us or Innersloth LLC, and the content cont
 (参考にさせていただきました。ありがとうございます。)
 - [BepInEx](https://github.com/BepInEx/BepInEx) ※MODの適応のために使用。
 - [TheOtherRoles](https://github.com/Eisbison/TheOtherRoles) ※modの作り方の参考にさせていただきました。**Eisbison**さんありがとうございます！
-- 
 
 ## 開発者
 - [しゅれ](https://github.com/oshurecat) ([Twitter](https://twitter.com/syure_soncho))/([YouTube](https://www.youtube.com/channel/UCvMjW7DUM0b_TA5TRjJ3BMw))

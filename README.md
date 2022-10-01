@@ -1,4 +1,4 @@
-# NeutralInModes
+# Neutral In Modes
 ![NIMimage](/image/NIMimage.png)
 
 ## このMODについて

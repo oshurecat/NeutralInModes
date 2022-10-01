@@ -1,0 +1,8 @@
+C:\Users\RYOSUKE\NeutralInModes\NeutralInModes\bin\Debug\netstandard2.1\NeutralInModes.deps.json
+C:\Users\RYOSUKE\NeutralInModes\NeutralInModes\bin\Debug\netstandard2.1\NeutralInModes.dll
+C:\Users\RYOSUKE\NeutralInModes\NeutralInModes\obj\Debug\netstandard2.1\NeutralInModes.csproj.AssemblyReference.cache
+C:\Users\RYOSUKE\NeutralInModes\NeutralInModes\obj\Debug\netstandard2.1\NeutralInModes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RYOSUKE\NeutralInModes\NeutralInModes\obj\Debug\netstandard2.1\NeutralInModes.AssemblyInfoInputs.cache
+C:\Users\RYOSUKE\NeutralInModes\NeutralInModes\obj\Debug\netstandard2.1\NeutralInModes.AssemblyInfo.cs
+C:\Users\RYOSUKE\NeutralInModes\NeutralInModes\obj\Debug\netstandard2.1\NeutralInModes.csproj.CoreCompileInputs.cache
+C:\Users\RYOSUKE\NeutralInModes\NeutralInModes\obj\Debug\netstandard2.1\NeutralInModes.dll

@@ -22,7 +22,7 @@ This mod is not affiliated with Among Us or Innersloth LLC, and the content cont
 - [しらたま](https://github.com/Siratamadesu)([Twitter](https://twitter.com/siratamadegesu?s=21&t=s18Ioa3PJ7l4eeZ5WGar-A))/([YouTube](https://youtube.com/channel/UCBGhL8rBMCsbA5Ml6kW_l8A))
 
 ## 開発協力者
-- 山菜船 〜部屋主山菜様([YouTube](https://youtube.com/channel/UCj1SxnfqEKlnwXkhCG_VZ7w))〜
+- 山菜船 〜部屋主山菜様([YouTube](https://youtube.com/channel/UCj1SxnfqEKlnwXkhCG_VZ7w))
 
 ## 内容
 ### コマンド

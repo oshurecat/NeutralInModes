@@ -26,7 +26,7 @@ This mod is not affiliated with Among Us or Innersloth LLC, and the content cont
 - [山菜](https://github.com/sansai0707)(Twitter)/([YouTube](https://youtube.com/channel/UCj1SxnfqEKlnwXkhCG_VZ7w))
 
 ## 開発協力者
-- [DekoKiyo]さん(https://github.com/Dekokiyo)※脱リアクターなど
+- [DekoKiyo](https://github.com/Dekokiyo)さん※脱リアクターなど
 - discord参加の皆様
 - 山菜船の皆さん
 - しゅれ村の皆さん

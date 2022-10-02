@@ -24,9 +24,9 @@ This mod is not affiliated with Among Us or Innersloth LLC, and the content cont
 - [シャンパン](https://github.com/Shanpan2)([Twitter](https://twitter.com/shanpanus?s=21&t=VkDFSOnM3bkZQ7Rdw1vNHA))
 
 ## 開発協力者
-- [DekoKiyo](https://github.com/Dekokiyo)※脱リアクターなど
+- [DekoKiyo]さん(https://github.com/Dekokiyo)※脱リアクターなど
 - discord参加の皆様
-- 山菜船 〜部屋主山菜様([YouTube](https://youtube.com/channel/UCj1SxnfqEKlnwXkhCG_VZ7w))
+- 山菜船の皆さん([YouTube](https://youtube.com/channel/UCj1SxnfqEKlnwXkhCG_VZ7w))
 
 ## 内容
 ### コマンド

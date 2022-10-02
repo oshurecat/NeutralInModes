@@ -1,28 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\RYOSUKE\\NeutralInModes\\NeutralInModes\\NeutralInModes.csproj": {}
+    "C:\\Users\\RYOSUKE\\OneDrive\\デスクトップ\\NeutralInModes\\NeutralInModes\\NeutralInModes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\RYOSUKE\\NeutralInModes\\NeutralInModes\\NeutralInModes.csproj": {
+    "C:\\Users\\RYOSUKE\\OneDrive\\デスクトップ\\NeutralInModes\\NeutralInModes\\NeutralInModes.csproj": {
       "version": "1.0.0-dev",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RYOSUKE\\NeutralInModes\\NeutralInModes\\NeutralInModes.csproj",
+        "projectUniqueName": "C:\\Users\\RYOSUKE\\OneDrive\\デスクトップ\\NeutralInModes\\NeutralInModes\\NeutralInModes.csproj",
         "projectName": "NeutralInModes",
-        "projectPath": "C:\\Users\\RYOSUKE\\NeutralInModes\\NeutralInModes\\NeutralInModes.csproj",
+        "projectPath": "C:\\Users\\RYOSUKE\\OneDrive\\デスクトップ\\NeutralInModes\\NeutralInModes\\NeutralInModes.csproj",
         "packagesPath": "C:\\Users\\RYOSUKE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RYOSUKE\\NeutralInModes\\NeutralInModes\\obj\\",
+        "outputPath": "C:\\Users\\RYOSUKE\\OneDrive\\デスクトップ\\NeutralInModes\\NeutralInModes\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\RYOSUKE\\NeutralInModes\\NuGet.Config",
           "C:\\Users\\RYOSUKE\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.bepinex.dev/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.1": {

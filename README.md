@@ -15,14 +15,16 @@ This mod is not affiliated with Among Us or Innersloth LLC, and the content cont
 ## クレジット
 (参考にさせていただきました。ありがとうございます。)
 - [BepInEx](https://github.com/BepInEx/BepInEx) ※MODの適応のために使用。
-- [SuperNewRoles](https://github.com/ykundesu/SuperNewRoles) ※modの作り方や役職のソースコードを参考にさせていただいております。**ykundesu**さんありがとうございます！
+- [SuperNewRoles](https://github.com/ykundesu/SuperNewRoles) ※modの作り方や役職のソースコード,REDAMEを参考にさせていただいております。**ykundesu**さんありがとうございます！
 - [TownOfHost](https://github.com/tukasa0001/TownOfHost) ※こちらも役職のソースコードを参考にさせていただいております。 **tukasa0001**さんありがとうございます！
 
 ## 開発者
 - [しゅれ](https://github.com/oshurecat) ([Twitter](https://twitter.com/syure_soncho))/([YouTube](https://www.youtube.com/channel/UCvMjW7DUM0b_TA5TRjJ3BMw))
 - [しらたま](https://github.com/Siratamadesu)([Twitter](https://twitter.com/siratamadegesu?s=21&t=s18Ioa3PJ7l4eeZ5WGar-A))/([YouTube](https://youtube.com/channel/UCBGhL8rBMCsbA5Ml6kW_l8A))
+- [シャンパン](https://github.com/Shanpan2)([Twitter](https://twitter.com/shanpanus?s=21&t=VkDFSOnM3bkZQ7Rdw1vNHA))
 
 ## 開発協力者
+- [DekoKiyo](https://github.com/Dekokiyo)※脱リアクターなど
 - discord参加の皆様
 - 山菜船 〜部屋主山菜様([YouTube](https://youtube.com/channel/UCj1SxnfqEKlnwXkhCG_VZ7w))
 

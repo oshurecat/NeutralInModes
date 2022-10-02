@@ -17,6 +17,7 @@ namespace NeutralInModes
         internal static BepInEx.Logging.ManualLogSource Logger;
 
         public Harmony Harmony { get; } = new(Id);
+        public static NeutralInModesPlugin Instance;
 
         public override void Load()
         {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\RYOSUKE\\OneDrive\\デスクトップ\\NeutralInModes\\NeutralInModes\\NeutralInModes.csproj": {}
+    "D:\\USER\\SHURE\\NeutralInModes\\NeutralInModes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\RYOSUKE\\OneDrive\\デスクトップ\\NeutralInModes\\NeutralInModes\\NeutralInModes.csproj": {
+    "D:\\USER\\SHURE\\NeutralInModes\\NeutralInModes.csproj": {
       "version": "1.0.0-dev",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RYOSUKE\\OneDrive\\デスクトップ\\NeutralInModes\\NeutralInModes\\NeutralInModes.csproj",
+        "projectUniqueName": "D:\\USER\\SHURE\\NeutralInModes\\NeutralInModes.csproj",
         "projectName": "NeutralInModes",
-        "projectPath": "C:\\Users\\RYOSUKE\\OneDrive\\デスクトップ\\NeutralInModes\\NeutralInModes\\NeutralInModes.csproj",
+        "projectPath": "D:\\USER\\SHURE\\NeutralInModes\\NeutralInModes.csproj",
         "packagesPath": "C:\\Users\\RYOSUKE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RYOSUKE\\OneDrive\\デスクトップ\\NeutralInModes\\NeutralInModes\\obj\\",
+        "outputPath": "D:\\USER\\SHURE\\NeutralInModes\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\RYOSUKE\\AppData\\Roaming\\NuGet\\NuGet.Config"

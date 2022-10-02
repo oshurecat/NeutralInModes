@@ -11,18 +11,18 @@ namespace NeutralInModes
     {
         public const string Id = "jp.oshurecat.NeutralInModes";
         // Versionに数字以外は含めないこと
-        public const string VersionString = "1.0.0";
+        public const string VersionString = "0.0.0";
 
         public static System.Version Version = System.Version.Parse(VersionString);
         internal static BepInEx.Logging.ManualLogSource Logger;
 
         public Harmony Harmony { get; } = new(Id);
+        public static NeutralInModesPlugin Instance;
 
         public override void Load()
         {
             Logger = Log;
             Instance = this;
-
             Harmony.PatchAll();
         }
     }

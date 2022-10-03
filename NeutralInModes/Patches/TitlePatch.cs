@@ -33,7 +33,7 @@ namespace NeutralInModes.Patches
 
                 var NIMName = UnityEngine.Object.Instantiate(credentials);
                 NIMName.transform.position = new Vector3(0, -0.2f, 0);
-                NIMName.SetText(string.Format("<size=125%><color=#00ffff>Authors : oshureca</color></size>\n" + NIMNAME));
+                NIMName.SetText(string.Format("<size=125%><color=#00ffff>Authors : oshurecat</color></size>\n" + NIMNAME));
 
                 credentials.transform.SetParent(amongUsLogo.transform);
                 NIMName.transform.SetParent(amongUsLogo.transform);

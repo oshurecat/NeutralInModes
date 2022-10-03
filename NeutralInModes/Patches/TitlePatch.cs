@@ -50,7 +50,7 @@ namespace NeutralInModes.Patches
 
                     var AmongUsLogo = GameObject.Find("bannerLogo_AmongUs");//ロゴ検出
                     AmongUsLogo.transform.localScale = new Vector3(0.7f, 0.7f, 1f);
-                    AmongUsLogo.transform.position = new Vector3(0f, 2f, 111f);
+                    AmongUsLogo.transform.position = new Vector3(0f, 2f, 0f);
                     var TitleLogo = new GameObject("bannerLogo");
                     TitleLogo.transform.position = Vector3.up;
                     var renderer = TitleLogo.AddComponent<SpriteRenderer>();

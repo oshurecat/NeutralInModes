@@ -15,6 +15,7 @@ This mod is not affiliated with Among Us or Innersloth LLC, and the content cont
 ## クレジット
 (参考にさせていただきました。ありがとうございます。)
 - [BepInEx](https://github.com/BepInEx/BepInEx) ※MODの適応のために使用。
+- [TheOtherRoles](https://github.com/TheOtherRolesAU/TheOtherRoles)※modの作り方や役職のソースコードを参考にさせていただいております。**TheOtherRolesAU**さんありがとうございます！
 - [SuperNewRoles](https://github.com/ykundesu/SuperNewRoles) ※modの作り方や役職のソースコード,REDAMEを参考にさせていただいております。**ykundesu**さんありがとうございます！
 - [TownOfHost](https://github.com/tukasa0001/TownOfHost) ※こちらも役職のソースコードを参考にさせていただいております。 **tukasa0001**さんありがとうございます！
 

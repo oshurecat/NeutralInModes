@@ -11,7 +11,7 @@ namespace NeutralInModes.Patches
     [HarmonyPatch]
     public static class TitleTextPatch
     {
-        public static string NIMNAME = $"<size=150%><color=#0000cd>NeutralInModes</color>v{NeutralInModesPlugin.Version}</size>";
+        public static string NIMNAME = $"<size=130%><color=#0000cd>NeutralInModes</color>v{NeutralInModesPlugin.Version}</size>";
         public static string NIMNAMEPlay = $"<size=125%><color=#0000cd>NeutralInModes\n</color>v{NeutralInModesPlugin.Version}</size>";
 
         [HarmonyPatch(typeof(VersionShower), nameof(VersionShower.Start))]
@@ -32,7 +32,7 @@ namespace NeutralInModes.Patches
                 credentials.fontSize *= 0.9f;
 
                 var NIMName = UnityEngine.Object.Instantiate(credentials);
-                NIMName.transform.position = new Vector3(0, 0f, 0);
+                NIMName.transform.position = new Vector3(0, -0.2f, 0);
                 NIMName.SetText(string.Format("<size=125%><color=#00ffff>Authors : oshureca</color></size>\n" + NIMNAME));
 
                 credentials.transform.SetParent(amongUsLogo.transform);
@@ -49,8 +49,8 @@ namespace NeutralInModes.Patches
                 {
 
                     var AmongUsLogo = GameObject.Find("bannerLogo_AmongUs");//ロゴ検出
-                    AmongUsLogo.transform.localScale = new Vector3(0.75f, 0.75f, 1f);
-                    AmongUsLogo.transform.position = new Vector3(0f, 2f, 0f);
+                    AmongUsLogo.transform.localScale = new Vector3(0.7f, 0.7f, 1f);
+                    AmongUsLogo.transform.position = new Vector3(0f, 2f, 111f);
                     var TitleLogo = new GameObject("bannerLogo");
                     TitleLogo.transform.position = Vector3.up;
                     var renderer = TitleLogo.AddComponent<SpriteRenderer>();

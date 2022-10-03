@@ -11,7 +11,7 @@ namespace NeutralInModes
     {
         public const string Id = "jp.oshurecat.NeutralInModes";
         // Versionに数字以外は含めないこと
-        public const string VersionString = "0.0.0";
+        public const string VersionString = "0.0.1";
 
         public static System.Version Version = System.Version.Parse(VersionString);
         internal static BepInEx.Logging.ManualLogSource Logger;

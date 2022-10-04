@@ -8,7 +8,7 @@ This mod is not affiliated with Among Us or Innersloth LLC, and the content cont
 また、このMODについてInnerslothに問い合わせるのはお控えください。
 
 ## リンク
-- [discord](https://discord.gg/FRrEAXJqzx)
+- [[discord](https://discord.gg/FRrEAXJqzx)]()
 - [YouTube](https://www.youtube.com/channel/UCL-TRSrWExcs6ib8PP1bshA)
 - [Twitter](https://twitter.com/NIMamongMOD)
 

@@ -8,10 +8,8 @@ This mod is not affiliated with Among Us or Innersloth LLC, and the content cont
 また、このMODについてInnerslothに問い合わせるのはお控えください。
 
 ## リンク
-<p align="center">
-  <img src=/image/discordlogo.jpg alt=![[discord](https://discord.gg/FRrEAXJqzx)] width=400px>
-<p align="center">
-  <img src=/image/youtubelogo.jpg alt=![[YouTube](https://www.youtube.com/channel/UCL-TRSrWExcs6ib8PP1bshA)] width=400px>
+[![discord](/image/discordlogo.jpg)](https://discord.gg/FRrEAXJqzx)
+[![YouTube](/image/youtubelogo.jpg)](https://www.youtube.com/channel/UCL-TRSrWExcs6ib8PP1bshA)
   <img src=/image/twitterlogo.png alt=![[Twitter](https://twitter.com/NIMamongMOD)] width=400px>
 </p>
 

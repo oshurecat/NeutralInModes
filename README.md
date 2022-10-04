@@ -9,9 +9,8 @@ This mod is not affiliated with Among Us or Innersloth LLC, and the content cont
 
 ## リンク
 [![discord](/image/discordlogo.jpg)](https://discord.gg/FRrEAXJqzx)
-[![YouTube](/image/youtubelogo.jpg)](https://www.youtube.com/channel/UCL-TRSrWExcs6ib8PP1bshA)
-  <img src=/image/twitterlogo.png alt=![[Twitter](https://twitter.com/NIMamongMOD)] width=400px>
-</p>
+[![YouTube](/image/.jpg)](https://www.youtube.com/channel/UCL-TRSrWExcs6ib8PP1bshA)
+[![Twitter](/image/twitterlogo.png)](https://twitter.com/NIMamongMOD)
 
 ## クレジット
 (参考にさせていただきました。ありがとうございます。)

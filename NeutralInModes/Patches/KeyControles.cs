@@ -17,7 +17,7 @@ namespace NeutralInModes.Patches
                 if (resolutionIndex >= resolutions.Length) resolutionIndex = 0;
                 ResolutionManager.SetResolution(resolutions[resolutionIndex].Item1, resolutions[resolutionIndex].Item2, false);
             }
-            
+            //廃村機能
             if (Input.GetKeyDown(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.LeftShift))
             {
                 if (!AmongUsClient.Instance.AmHost) return;

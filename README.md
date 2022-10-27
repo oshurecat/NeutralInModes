@@ -6,7 +6,7 @@
 また、このMODについてInnerslothに問い合わせるのはお控えください。
 
 ## ReadMe
-[English](https://github.com/shanpan2/NeutralInModes-shanpan/blob/master_READMEs/README_en.md)
+[English](https://github.com/shanpan2/NeutralInModes-shanpan/blob/master_READMEs/README.en)
 
 ## リンク
 - [discord](https://discord.gg/FRrEAXJqzx)

@@ -5,9 +5,6 @@
 これはInnerslothが作ったものじゃなくて個人が作ったものなのでInnerslothは関係ないです。あとこの中にある素材の一部はInnerslothのものです。<br>
 また、このMODについてInnerslothに問い合わせるのはお控えください。
 
-## ReadMe
-[English](https://github.com/Shanpan2/NeutralInModes-Shanpan/blob/README.en)
-
 ## リンク
 - [discord](https://discord.gg/FRrEAXJqzx)
 - [YouTube](https://www.youtube.com/channel/UCL-TRSrWExcs6ib8PP1bshA)

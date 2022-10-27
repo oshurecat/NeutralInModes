@@ -1,7 +1,8 @@
 # Neutral In Modes
 ![NIMimage](/image/NIMimage.png)
 
-## このMODについてこれはInnerslothが作ったものじゃなくて個人が作ったものなのでInnerslothは関係ないです。あとこの中にある素材の一部はInnerslothのものです。<br>
+## このMODについて
+これはInnerslothが作ったものじゃなくて個人が作ったものなのでInnerslothは関係ないです。あとこの中にある素材の一部はInnerslothのものです。<br>
 また、このMODについてInnerslothに問い合わせるのはお控えください。
 
 ## ReadMe

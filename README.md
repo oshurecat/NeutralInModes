@@ -8,13 +8,14 @@ This mod is not affiliated with Among Us or Innersloth LLC, and the content cont
 また、このMODについてInnerslothに問い合わせるのはお控えください。
 
 ## リンク
-- [discord](https://discord.gg/FRrEAXJqzx)
-- [YouTube](https://www.youtube.com/channel/UCL-TRSrWExcs6ib8PP1bshA)
-- [Twitter](https://twitter.com/NIMamongMOD)
+[![discord](/image/discordlogo.jpg)](https://discord.gg/FRrEAXJqzx)
+[![YouTube](/image/youtubelogo.jpg)](https://www.youtube.com/channel/UCL-TRSrWExcs6ib8PP1bshA)
+[![Twitter](/image/twitterlogo.png)](https://twitter.com/NIMamongMOD)
 
 ## クレジット
 (参考にさせていただきました。ありがとうございます。)
 - [BepInEx](https://github.com/BepInEx/BepInEx) ※MODの適応のために使用。
+- [TheOtherRoles](https://github.com/TheOtherRolesAU/TheOtherRoles)※modの作り方や役職のソースコードを参考にさせていただいております。**TheOtherRolesAU**さんありがとうございます！
 - [SuperNewRoles](https://github.com/ykundesu/SuperNewRoles) ※modの作り方や役職のソースコード,REDAMEを参考にさせていただいております。**ykundesu**さんありがとうございます！
 - [TownOfHost](https://github.com/tukasa0001/TownOfHost) ※こちらも役職のソースコードを参考にさせていただいております。 **tukasa0001**さんありがとうございます！
 
@@ -23,7 +24,6 @@ This mod is not affiliated with Among Us or Innersloth LLC, and the content cont
 - [しらたま](https://github.com/Siratamadesu)([Twitter](https://twitter.com/siratamadegesu?s=21&t=s18Ioa3PJ7l4eeZ5WGar-A))/([YouTube](https://youtube.com/channel/UCBGhL8rBMCsbA5Ml6kW_l8A))
 - [ハロン](https://github.com/Haroweeeeen)(Twitter)/([YouTube](https://www.youtube.com/channel/UC_ZjRDHgDybTopdkeV7RgVA))
 - [シャンパン](https://github.com/Shanpan2)([Twitter](https://twitter.com/shanpanus?s=21&t=VkDFSOnM3bkZQ7Rdw1vNHA))/(YouTube)
-- [山菜](https://github.com/sansai0707)([Twitter](https://twitter.com/sansai_yukkuri))/([YouTube](https://youtube.com/channel/UCj1SxnfqEKlnwXkhCG_VZ7w))
 
 ## 開発協力者
 - [DekoKiyo](https://github.com/Dekokiyo)さん※脱リアクターなど

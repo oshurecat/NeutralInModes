@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <TargetFramework>netstandard2.1</TargetFramework>
         <LangVersion>latest</LangVersion>
@@ -17,8 +17,9 @@
 
     <ItemGroup>
         <PackageReference Include="BepInEx.IL2CPP" Version="6.0.0-be.562" />
-        <PackageReference Include="AmongUs.GameLibs.Steam" Version="2022.8.23" PrivateAssets="all" />
+        <PackageReference Include="AmongUs.GameLibs.Steam" Version="2022.12.8" PrivateAssets="all" />
         <PackageReference Include="BepInEx.IL2CPP.MSBuild" Version="1.1.1" PrivateAssets="all" />
+		<EmbeddedResource Include=".\Resources\*.png" />
     </ItemGroup>
 
     <Target Name="CopyCustomContent" AfterTargets="AfterBuild" Condition="Exists('$(AmongUs)/BepInEx/plugins/')">

@@ -3,7 +3,7 @@ using BepInEx.Configuration;
 using BepInEx.IL2CPP;
 using HarmonyLib;
 using UnityEngine;
-using NeutralInModes.Helpers;
+using NeutralInModes;
 using TMPro;
 
 namespace NeutralInModes.Patches
@@ -11,8 +11,8 @@ namespace NeutralInModes.Patches
     [HarmonyPatch]
     public static class TitleTextPatch
     {
-        public static string NIMNAME = $"<size=130%><color=#0000cd>NeutralInModes</color>v{NeutralInModesPlugin.Version}</size>";
-        public static string NIMNAMEPlay = $"<size=125%><color=#0000cd>NeutralInModes\n</color>v{NeutralInModesPlugin.Version}</size>";
+        public static string NIMNAME = $"<size=130%><color=#fcc800>NeutralInModes</color>v{NeutralInModesPlugin.Version}</size>";
+        public static string NIMNAMEPlay = $"<size=125%><color=#fcc800>NeutralInModes\n</color>v{NeutralInModesPlugin.Version}</size>";
 
         [HarmonyPatch(typeof(VersionShower), nameof(VersionShower.Start))]
         private static class VersionShowerPatch
@@ -54,7 +54,7 @@ namespace NeutralInModes.Patches
                     var TitleLogo = new GameObject("bannerLogo");
                     TitleLogo.transform.position = Vector3.up;
                     var renderer = TitleLogo.AddComponent<SpriteRenderer>();
-                    renderer.sprite = Helpers.Helpers.LoadSpriteFromImages("NeutralInModes.Images.NIMimage.png", 250f);
+                    renderer.sprite = Helpers.LoadSpriteFromResources("NeutralInModes.Resources.NIMimage.png", 250f);
                     DestroyableSingleton<ModManager>.Instance.ShowModStamp();//モッドスタンプ召喚
                 }
 

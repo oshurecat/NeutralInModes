@@ -8,7 +8,7 @@ using InnerNet;
 using NeutralInModes;
 using UnityEngine;
 
-namespace NeutralInModes.Patches;//TORより！！！
+namespace NeutralInModes.Patches;//The other rolesより！！
 
 public class CachedPlayer
 {
@@ -80,7 +80,6 @@ public static class CachedPlayerPatches
         CachedPlayer.AllPlayers.Add(player);
         CachedPlayer.PlayerPtrs[__instance.Pointer] = player;
 
-#if DEBUG
         foreach (var cachedPlayer in CachedPlayer.AllPlayers)
         {
             if (!cachedPlayer.PlayerControl || !cachedPlayer.PlayerPhysics || !cachedPlayer.NetTransform || !cachedPlayer.transform)
@@ -88,7 +87,6 @@ public static class CachedPlayerPatches
                 NeutralInModesPlugin.Logger.LogError($"CachedPlayer {cachedPlayer.PlayerControl.name} has null fields");
             }
         }
-#endif
     }
 
     [HarmonyPatch(typeof(PlayerControl), nameof(PlayerControl.OnDestroy))]

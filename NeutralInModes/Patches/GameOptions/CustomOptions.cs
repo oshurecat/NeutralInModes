@@ -601,7 +601,7 @@ namespace NeutralInModes
                     break;
             }
 
-            hudString += $"\n Tabキーを押してページを切り替えれます ({counter + 1}/6)";
+            hudString += $"\n Tabキーを押してページを切り替えれます ({counter + 1}/7)";
             __result = hudString;
         }
     }
@@ -614,7 +614,7 @@ namespace NeutralInModes
             int page = NeutralInModesPlugin.optionsPage;
             if (Input.GetKeyDown(KeyCode.Tab))
             {
-                NeutralInModesPlugin.optionsPage = (NeutralInModesPlugin.optionsPage + 1) % 6;
+                NeutralInModesPlugin.optionsPage = (NeutralInModesPlugin.optionsPage + 1) % 7;
             }
             if (Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.Keypad1))
             {

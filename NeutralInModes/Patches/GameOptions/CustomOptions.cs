@@ -20,7 +20,8 @@ namespace NeutralInModes
             General,
             Impostor,
             Neutral,
-            Crewmate
+            Crewmate,
+            Modifier
         }
 
         public static List<CustomOption> options = new List<CustomOption>();
@@ -192,6 +193,12 @@ namespace NeutralInModes
                 GameObject.Find("CrewmateSettings").transform.FindChild("GameGroup").FindChild("Text").GetComponent<TMPro.TextMeshPro>().SetText("<color=#00ffff>クルーメイト</color>の設定");
                 return;
             }
+            if (GameObject.Find("ModifierSettings") != null)
+            {
+                GameObject.Find("ModifierSettings").transform.FindChild("GameGroup").FindChild("Text").GetComponent<TMPro.TextMeshPro>().SetText("<color=#47FF9C>両陣営可能役職</color>の設定");
+                return;
+            }
+
 
             var template = UnityEngine.Object.FindObjectsOfType<StringOption>().FirstOrDefault();
             if (template == null) return;
@@ -213,6 +220,10 @@ namespace NeutralInModes
             var crewmateSettings = UnityEngine.Object.Instantiate(gameSettings, gameSettings.transform.parent);
             var crewmateMenu = crewmateSettings.transform.FindChild("GameGroup").FindChild("SliderInner").GetComponent<GameOptionsMenu>();
             crewmateSettings.name = "CrewmateSettings";
+
+            var modifierSettings = UnityEngine.Object.Instantiate(gameSettings, gameSettings.transform.parent);
+            var modifierMenu = crewmateSettings.transform.FindChild("GameGroup").FindChild("SliderInner").GetComponent<GameOptionsMenu>();
+            modifierSettings.name = "ModifierSettings";
 
             var roleTab = GameObject.Find("RoleTab");
             var gameTab = GameObject.Find("GameTab");
@@ -236,6 +247,11 @@ namespace NeutralInModes
             neutralTab.transform.FindChild("Hat Button").FindChild("Icon").GetComponent<SpriteRenderer>().sprite = Helpers.LoadSpriteFromResources("NeutralInModes.Resources.NIMTabIconNeutral.png", 100f);
             neutralTab.name = "NeutralTab";
 
+            var modifierTab = UnityEngine.Object.Instantiate(roleTab, neutralTab.transform);
+            var modifierTabHighlight = modifierTab.transform.FindChild("Hat Button").FindChild("Tab Background").GetComponent<SpriteRenderer>();
+            modifierTab.transform.FindChild("Hat Button").FindChild("Icon").GetComponent<SpriteRenderer>().sprite = Helpers.LoadSpriteFromResources("NeutralInModes.Resources.NIMTabIconModifier.png", 100f);
+            modifierTab.name = "ModifierTab";
+
 
             // Position of Tab Icons
             gameTab.transform.position += Vector3.left * 3f;
@@ -244,8 +260,9 @@ namespace NeutralInModes
             crewmateTab.transform.localPosition = Vector3.right * 1f;
             impostorTab.transform.localPosition = Vector3.right * 1f;
             neutralTab.transform.localPosition = Vector3.right * 1f;
+            modifierTab.transform.localPosition = Vector3.right * 1f;
 
-            var tabs = new GameObject[] { gameTab, roleTab, NIMTab, crewmateTab, impostorTab, neutralTab};
+            var tabs = new GameObject[] { gameTab, roleTab, NIMTab, crewmateTab, impostorTab, neutralTab,modifierTab};
             for (int i = 0; i < tabs.Length; i++)
             {
                 var button = tabs[i].GetComponentInChildren<PassiveButton>();
@@ -259,12 +276,14 @@ namespace NeutralInModes
                     impostorSettings.gameObject.SetActive(false);
                     neutralSettings.gameObject.SetActive(false);
                     crewmateSettings.gameObject.SetActive(false);
+                    modifierSettings.gameObject.SetActive(false);
                     gameSettingMenu.GameSettingsHightlight.enabled = false;
                     gameSettingMenu.RolesSettingsHightlight.enabled = false;
                     NIMTabHighlight.enabled = false;
                     impostorTabHighlight.enabled = false;
                     neutralTabHighlight.enabled = false;
                     crewmateTabHighlight.enabled = false;
+                    modifierTabHighlight.enabled = false;
                     if (copiedIndex == 0)
                     {
                         gameSettingMenu.RegularGameSettings.SetActive(true);
@@ -287,13 +306,18 @@ namespace NeutralInModes
                     }
                     else if (copiedIndex == 4)
                     {
-                                                impostorSettings.gameObject.SetActive(true);
+                        impostorSettings.gameObject.SetActive(true);
                         impostorTabHighlight.enabled = true;
                     }
                     else if (copiedIndex == 5)
                     {
                         neutralSettings.gameObject.SetActive(true);
                         neutralTabHighlight.enabled = true;
+                    }
+                    else if (copiedIndex == 6)
+                    {
+                        modifierSettings.gameObject.SetActive(true);
+                        modifierTabHighlight.enabled = true;
                     }
 
 
@@ -317,9 +341,13 @@ namespace NeutralInModes
                 UnityEngine.Object.Destroy(option.gameObject);
             List<OptionBehaviour> crewmateOptions = new List<OptionBehaviour>();
 
+             foreach (OptionBehaviour option in modifierMenu.GetComponentsInChildren<OptionBehaviour>())
+                UnityEngine.Object.Destroy(option.gameObject);
+            List<OptionBehaviour> modifierOptions = new List<OptionBehaviour>();
 
-            List<Transform> menus = new List<Transform>() { NIMMenu.transform, impostorMenu.transform, neutralMenu.transform, crewmateMenu.transform};
-            List<List<OptionBehaviour>> optionBehaviours = new List<List<OptionBehaviour>>() { NIMOptions, impostorOptions, neutralOptions, crewmateOptions };
+
+            List<Transform> menus = new List<Transform>() { NIMMenu.transform, impostorMenu.transform, neutralMenu.transform, crewmateMenu.transform, modifierMenu.transform};
+            List<List<OptionBehaviour>> optionBehaviours = new List<List<OptionBehaviour>>() { NIMOptions, impostorOptions, neutralOptions, crewmateOptions, modifierOptions};
 
             for (int i = 0; i < CustomOption.options.Count; i++)
             {
@@ -349,6 +377,10 @@ namespace NeutralInModes
 
             crewmateMenu.Children = crewmateOptions.ToArray();
             crewmateSettings.gameObject.SetActive(false);
+
+            modifierMenu.Children = crewmateOptions.ToArray();
+            modifierSettings.gameObject.SetActive(false);
+
 
             // Adapt task count for main options
 
@@ -439,6 +471,8 @@ namespace NeutralInModes
                 if (GameObject.Find("NeutralSettings") && option.type != CustomOption.CustomOptionType.Neutral)
                     continue;
                 if (GameObject.Find("CrewmateSettings") && option.type != CustomOption.CustomOptionType.Crewmate)
+                    continue;
+                if (GameObject.Find("ModifierSettings") && option.type != CustomOption.CustomOptionType.Modifier)
                     continue;
                 if (option?.optionBehaviour != null && option.optionBehaviour.gameObject != null)
                 {
@@ -562,6 +596,9 @@ namespace NeutralInModes
                 case 5:
                     hudString += "Page 6: 第三陣営の設定 \n" + buildOptionsOfType(CustomOption.CustomOptionType.Neutral, false);
                     break;
+                case 6:
+                    hudString += "Page 7: 両陣営可能役職の設定 \n" + buildOptionsOfType(CustomOption.CustomOptionType.Modifier, false);
+                    break;
             }
 
             hudString += $"\n Tabキーを押してページを切り替えれます ({counter + 1}/6)";
@@ -602,6 +639,10 @@ namespace NeutralInModes
             if (Input.GetKeyDown(KeyCode.Alpha6) || Input.GetKeyDown(KeyCode.Keypad6))
             {
                 NeutralInModesPlugin.optionsPage = 5;
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha7) || Input.GetKeyDown(KeyCode.Keypad6))
+            {
+                NeutralInModesPlugin.optionsPage = 6;
             }
             if (page != NeutralInModesPlugin.optionsPage)
             {

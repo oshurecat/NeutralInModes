@@ -1,4 +1,6 @@
 # Neutral In Modes
+[日本語](README.md)<br>
+→ [English](README-en.md)<br>
 ![NIMimage](/image/NIMimage.png)
 
 ## About this mod
@@ -11,26 +13,26 @@ This mod is not affiliated with Among Us or Innersloth LLC, and the content cont
 [![Twitter](/image/twitterlogo.png)](https://twitter.com/NIMamongMOD)
 
 ## Credits
-(参考にさせていただきました。ありがとうございます。)
-- [BepInEx](https://github.com/BepInEx/BepInEx) ※MODの適応のために使用。
-- [TheOtherRoles](https://github.com/TheOtherRolesAU/TheOtherRoles)※modの作り方や役職のソースコードを参考にさせていただいております。**TheOtherRolesAU**さんありがとうございます！
-- [SuperNewRoles](https://github.com/ykundesu/SuperNewRoles) ※modの作り方や役職のソースコード,REDAMEを参考にさせていただいております。**ykundesu**さんありがとうございます！
+(Thank you for the reference. Thank you very much)
+- [BepInEx](https://github.com/BepInEx/BepInEx) ※Used for MOD adaptations.
+- [TheOtherRoles](https://github.com/TheOtherRolesAU/TheOtherRoles)※We're referring to the mod's creation and the source code for the roles. thank you, TheOtherRolesAU!
+- [SuperNewRoles](https://github.com/ykundesu/SuperNewRoles) ※I am referring to the source code of how to make mods and positions, REDAME.Thank you **ykundesu**!
 
 
-## 開発者
-- [しゅれ](https://github.com/oshurecat) ([Twitter](https://twitter.com/syure_soncho))/([YouTube](https://www.youtube.com/channel/UCvMjW7DUM0b_TA5TRjJ3BMw))
-- [しらたま](https://github.com/Siratamadesu)([Twitter](https://twitter.com/siratamadegesu?s=21&t=s18Ioa3PJ7l4eeZ5WGar-A))/([YouTube](https://youtube.com/channel/UCBGhL8rBMCsbA5Ml6kW_l8A))
-- [ハロン](https://github.com/Haroweeeeen)(Twitter)/([YouTube](https://www.youtube.com/channel/UC_ZjRDHgDybTopdkeV7RgVA))
-- [シャンパン](https://github.com/Shanpan2)([Twitter](https://twitter.com/shanpanus?s=21&t=VkDFSOnM3bkZQ7Rdw1vNHA))/(YouTube)
+## Developers
+- [Shure](https://github.com/oshurecat) ([Twitter](https://twitter.com/syure_soncho))/([YouTube](https://www.youtube.com/channel/UCvMjW7DUM0b_TA5TRjJ3BMw))
+- [Shiratama](https://github.com/Siratamadesu)([Twitter](https://twitter.com/siratamadegesu?s=21&t=s18Ioa3PJ7l4eeZ5WGar-A))/([YouTube](https://youtube.com/channel/UCBGhL8rBMCsbA5Ml6kW_l8A))
+- [Haron](https://github.com/Haroweeeeen)(Twitter)/([YouTube](https://www.youtube.com/channel/UC_ZjRDHgDybTopdkeV7RgVA))
+- [Syanpan](https://github.com/Shanpan2)([Twitter](https://twitter.com/shanpanus?s=21&t=VkDFSOnM3bkZQ7Rdw1vNHA))/(YouTube)
 
-## 開発協力者
-- [DekoKiyo](https://github.com/Dekokiyo)さん※脱リアクターなど
-- discord参加の皆様
-- 山菜船の皆さん
-- しゅれ村の皆さん
+## Development collaborators
+- [DekoKiyo](https://github.com/Dekokiyo)※Dereactors, etc.
+- To all discord participants
+- Members of the Sansai Boat
+- The people of Shure Village
 
-## 内容
-### コマンド
-### 役職
-### モード
-### 設定
+## Contents
+### Commands
+### Roles
+### Modes
+### Settings

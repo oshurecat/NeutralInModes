@@ -18,6 +18,7 @@
 - [TheOtherRoles](https://github.com/TheOtherRolesAU/TheOtherRoles)※modの作り方や役職のソースコードを参考にさせていただいております。**TheOtherRolesAU**さんありがとうございます！
 - [SuperNewRoles](https://github.com/ykundesu/SuperNewRoles) ※modの作り方や役職のソースコード,REDAMEを参考にさせていただいております。**ykundesu**さんありがとうございます！
 
+
 ## 開発者
 - [しゅれ](https://github.com/oshurecat) ([Twitter](https://twitter.com/syure_soncho))/([YouTube](https://www.youtube.com/channel/UCvMjW7DUM0b_TA5TRjJ3BMw))
 - [しらたま](https://github.com/Siratamadesu)([Twitter](https://twitter.com/siratamadegesu?s=21&t=s18Ioa3PJ7l4eeZ5WGar-A))/([YouTube](https://youtube.com/channel/UCBGhL8rBMCsbA5Ml6kW_l8A))

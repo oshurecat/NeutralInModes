@@ -3,7 +3,7 @@ using BepInEx.Configuration;
 using BepInEx.IL2CPP;
 using HarmonyLib;
 using UnityEngine;
-using NeutralInModes.Helpers;
+using NeutralInModes;
 using System.Collections.Generic;
 using Il2CppSystem;
 using NeutralInModes.Patches;

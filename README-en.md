@@ -15,7 +15,7 @@ This mod is not affiliated with Among Us or Innersloth LLC, and the content cont
 ## Credits
 (Thank you for the reference. Thank you very much)
 - [BepInEx](https://github.com/BepInEx/BepInEx) ※Used for MOD adaptations.
-- [TheOtherRoles](https://github.com/TheOtherRolesAU/TheOtherRoles)※We're referring to the mod's creation and the source code for the roles. thank you, TheOtherRolesAU!
+- [TheOtherRoles](https://github.com/TheOtherRolesAU/TheOtherRoles)※We're referring to the mod's creation and the source code for the roles.Thank you, TheOtherRolesAU!
 - [SuperNewRoles](https://github.com/ykundesu/SuperNewRoles) ※We are referring to the source code of how to make mods and positions, REDAME.Thank you **ykundesu**!
 
 
@@ -27,9 +27,9 @@ This mod is not affiliated with Among Us or Innersloth LLC, and the content cont
 
 ## Development collaborators
 - [DekoKiyo](https://github.com/Dekokiyo)※Dereactors, etc.
-- To all discord participants
-- Members of the Sansai Boat
-- The people of Shure Village
+- To all discord participants.
+- Members of the Sansai Boat.
+- The people of Shure Village.
 
 ## Contents
 ### Commands

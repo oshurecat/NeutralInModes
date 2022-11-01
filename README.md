@@ -1,4 +1,6 @@
 # Neutral In Modes
+→ [日本語](README.md)<br>
+ [English](README-en.md)<br>
 ![NIMimage](/image/NIMimage.png)
 
 ## このMODについて

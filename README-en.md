@@ -1,18 +1,16 @@
 # Neutral In Modes
 ![NIMimage](/image/NIMimage.png)
 
-## このMODについて
+## About this mod
 This mod is not affiliated with Among Us or Innersloth LLC, and the content contained therein is not endorsed or otherwise sponsored by Innersloth LLC. Portions of the materials contained herein are property of Innersloth LLC.<br>
  © Innersloth LLC. <br>
-訳:これはInnerslothが作ったものじゃなくて個人が作ったものなのでInnerslothは関係ないです。あとこの中にある素材の一部はInnerslothのものです。<br>
-また、このMODについてInnerslothに問い合わせるのはお控えください。
 
-## リンク
+## Link
 [![discord](/image/discordlogo.jpg)](https://discord.gg/FRrEAXJqzx)
 [![YouTube](/image/youtubelogo.jpg)](https://www.youtube.com/channel/UCL-TRSrWExcs6ib8PP1bshA)
 [![Twitter](/image/twitterlogo.png)](https://twitter.com/NIMamongMOD)
 
-## クレジット
+## Credits
 (参考にさせていただきました。ありがとうございます。)
 - [BepInEx](https://github.com/BepInEx/BepInEx) ※MODの適応のために使用。
 - [TheOtherRoles](https://github.com/TheOtherRolesAU/TheOtherRoles)※modの作り方や役職のソースコードを参考にさせていただいております。**TheOtherRolesAU**さんありがとうございます！

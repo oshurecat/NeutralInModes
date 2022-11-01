@@ -10,4 +10,4 @@ This mod is not affiliated with Among Us or Innersloth LLC, and the content cont
 ## Languages/言語
 
 - [日本語](https://github.com/oshurecat/NeutralInModes/blob/main/REDAMEs/README_jp.md)
-- [English](https://github.com/oshurecat/NeutralInModes/blob/main/REDAMEs/README_en.md)
+- [English](https://github.com/oshurecat/NeutralInModes/blob/main/REDAMEs/REDAME_en.md)

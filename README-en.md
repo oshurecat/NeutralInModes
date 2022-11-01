@@ -16,7 +16,7 @@ This mod is not affiliated with Among Us or Innersloth LLC, and the content cont
 (Thank you for the reference. Thank you very much)
 - [BepInEx](https://github.com/BepInEx/BepInEx) ※Used for MOD adaptations.
 - [TheOtherRoles](https://github.com/TheOtherRolesAU/TheOtherRoles)※We're referring to the mod's creation and the source code for the roles. thank you, TheOtherRolesAU!
-- [SuperNewRoles](https://github.com/ykundesu/SuperNewRoles) ※I am referring to the source code of how to make mods and positions, REDAME.Thank you **ykundesu**!
+- [SuperNewRoles](https://github.com/ykundesu/SuperNewRoles) ※We are referring to the source code of how to make mods and positions, REDAME.Thank you **ykundesu**!
 
 
 ## Developers

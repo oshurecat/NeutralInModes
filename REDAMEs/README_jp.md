@@ -26,6 +26,7 @@
 - [しらたま](https://github.com/Siratamadesu)([Twitter](https://twitter.com/siratamadegesu?s=21&t=s18Ioa3PJ7l4eeZ5WGar-A))/([YouTube](https://youtube.com/channel/UCBGhL8rBMCsbA5Ml6kW_l8A))
 - [ハロン](https://github.com/Haroweeeeen)(Twitter)/([YouTube](https://www.youtube.com/channel/UC_ZjRDHgDybTopdkeV7RgVA))
 - [シャンパン](https://github.com/Shanpan2)([Twitter](https://twitter.com/shanpanus?s=21&t=VkDFSOnM3bkZQ7Rdw1vNHA))/(YouTube)
+- [山菜](https://github.com/sansai0707)([Twitter](https://twitter.com/sansai_yukkuri?s=20&t=VAw9dvpLh1FEFnnUR1W7rA)/([YouTube](https://www.youtube.com/channel/UCj1SxnfqEKlnwXkhCG_VZ7w)))
 
 # 開発協力者
 - [DekoKiyo](https://github.com/Dekokiyo)さん※脱リアクターなど
@@ -52,7 +53,11 @@
 | 設定内容                   | 設定時間感覚                | デフォルト |
 | -------------------------- | --------------------------- | ---------- |
 | シェリフのキルクールタイム | 10.0秒 ~ 60.0秒 (2.5秒刻み) | 30.0秒     |
-| シェリフのキル可能弾数     | 1発 ~ 15発 (1発刻み)        | 3発　      |　　　
+| シェリフのキル可能弾数     | 1発 ~ 15発 (1発刻み)        | 3発　      |
+| マッドメイトをキルできる   | `ON` / `OFF`                | `OFF`      |
+| 第三陣営をキルできる       | `ON` / `OFF` / `個別に設定` | `OFF`      |
+| ┣ ジャッカルをキルできる  | `ON` / `OFF`                | `OFF`      |
+| ┣ 妖狐をキルできる        | `ON` / `OFF`                | `OFF`      |
 
 ### スニッチ
 

@@ -32,29 +32,5 @@ This mod is not affiliated with Among Us or Innersloth LLC, and the content cont
 
 # Content
 ## Command
-| Command Key         | Content                              | who can use          | can be used     |
-| ---------------------- | --------------------------------- | ----------------- | ------------ |
-| `LeftCtrl` + `LeftShift`   | Game End  | people who made the room            | In Game     |
-| `F11`                  | change resolution<br>480x270 → 640x360 → 800x450 → 1280x720 → 1600x900 → 1920x1080 | anyone | anytime |
 
 ## Roles
-## 役職
-| Crewmate          | Impostor                              | Neutral                   | Modifier |
-| --------------------- | ----------------------------------------- | ------------------------- | ---------- |
-| [Sheriff](#Sheriff) | [Vampire](#Vampire)             | [Jackal](#Jackal) |  |
-| [Snitch](#Snitch) | [BountyHunter](#BountyHunter) | [Fox](#Fox)             |  |
-|                       | [Madmate](#Madmate)             |  |  |
-
-### Sheriff
-
-### Snitch
-
-### Vampire
-
-### BountyHunter
-
-### Madmate
-
-### Jackal
-
-### Fox

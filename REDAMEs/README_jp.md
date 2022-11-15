@@ -44,7 +44,7 @@
 
 ### シェリフ
 開発者：しゅれ<br>
-参考：[TheOtherRoles](https://github.com/TheOtherRolesAU/TheOtherRoles)
+参考：[TheOtherRoles](https://github.com/TheOtherRolesAU/TheOtherRoles)<br>
 陣営：クルーメイト<br>
 能力：インポスターなどのクルーメイト陣営以外をくるすることができます。逆にクルーをきるしようとすると自分が死んでしまいます。
 設定：

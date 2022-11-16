@@ -8,6 +8,11 @@
 また、このMODについてInnerslothに問い合わせるのはお控えください。<br>
  © Innersloth LLC. <br>
 
+ ## Languages/言語
+
+- [日本語](https://github.com/oshurecat/NeutralInModes/blob/main/REDAMEs/README_jp.md) <= here
+- [English](https://github.com/oshurecat/NeutralInModes/blob/main/REDAMEs/REDAME_en.md)
+
 # 公式リンク
 - [discord](https://discord.gg/FRrEAXJqzx)
 - [YouTube](https://www.youtube.com/channel/UCL-TRSrWExcs6ib8PP1bshA)

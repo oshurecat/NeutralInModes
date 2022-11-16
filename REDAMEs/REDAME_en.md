@@ -7,6 +7,11 @@
 This mod is not affiliated with Among Us or Innersloth LLC, and the content contained therein is not endorsed or otherwise sponsored by Innersloth LLC. Portions of the materials contained herein are property of Innersloth LLC.<br>
  © Innersloth LLC. <br>
 
+ ## Languages/言語
+
+- [日本語](https://github.com/oshurecat/NeutralInModes/blob/main/REDAMEs/README_jp.md)
+- [English](https://github.com/oshurecat/NeutralInModes/blob/main/REDAMEs/REDAME_en.md) <= here
+
 # Official Links
 - [discord](https://discord.gg/FRrEAXJqzx)
 - [YouTube](https://www.youtube.com/channel/UCL-TRSrWExcs6ib8PP1bshA)

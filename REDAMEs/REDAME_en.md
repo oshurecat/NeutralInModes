@@ -37,6 +37,29 @@ This mod is not affiliated with Among Us or Innersloth LLC, and the content cont
 
 # Content
 ## Command
-| 
+| Command | Content | Who | When |
+| ------ | ---- | ---------- |
+| `Left Cntl` + `Left Shift` | Game end(force the game to quit) | Game Host | In Game |
+| `F11` | change resolution<br>480x270 → 640x360 → 800x450 → 1280x720 → 1600x900 → 1920x1080 | Anyone | Anytime |
 
 ## Roles
+| Crewmate          | Impostor                              | Nuetral                   | Modifier |
+| --------------------- | ----------------------------------------- | ------------------------- | ---------- |
+| [Sheriff](#sheriff) | [Vampire](#Vampire)             | [Jackal](#Jackal) |  |
+| [Snitch](#Snitch) | [BountyHunter](#BountyHunter) | [Fox](#Fox)             |  |
+|                       | [Madmate](#Madmate)             |  |  |
+
+### Sheriff
+Developer：oshurecat<br>
+Quote：[TheOtherRoles](https://github.com/TheOtherRolesAU/TheOtherRoles)<br>
+Team：Crewmate<br>
+ Character：インポスターなどのクルーメイト陣営以外をくるすることができます。逆にクルーをきるしようとすると自分が死んでしまいます。
+Setting：
+| Setting Content            | Ratio                | Default |
+| -------------------------- | --------------------------- | ---------- |
+| KillCoolTime | 10.0s ~ 60.0s (2.5s ratio) | 30.0s     |
+| シェリフのキル可能弾数     | 1shot ~ 15shots (1shot ratio)        | 3shots　      |
+| マッドメイトをキルできる   | `ON` / `OFF`                | `OFF`      |
+| 第三陣営をキルできる       | `ON` / `OFF` / `個別に設定` | `OFF`      |
+| ┣ ジャッカルをキルできる  | `ON` / `OFF`                | `OFF`      |
+| ┣ 妖狐をキルできる        | `ON` / `OFF`                | `OFF`      |

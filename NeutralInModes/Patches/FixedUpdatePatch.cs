@@ -35,7 +35,7 @@ namespace NeutralInModes.Patches
                     if (Input.GetKeyDown(KeyCode.RightShift) && Input.GetKey(KeyCode.H))
                     {
                         EndGamePatch.EndGameManagerSetUpPatch.IsHaison = true;
-                        ShipStatus.RpcEndGame(GameOverReason.HumansByTask, false);
+                        GameManager.Instance.RpcEndGame(GameOverReason.HumansByTask, false);
                     }
                 }
             }

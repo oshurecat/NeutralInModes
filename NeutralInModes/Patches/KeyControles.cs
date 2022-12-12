@@ -23,7 +23,7 @@ namespace NeutralInModes.Patches
                 if (!AmongUsClient.Instance.AmHost) return;
                 if (StartGamePatch.GameStart.IsStart)
                 {
-                    ShipStatus.RpcEndGame(GameOverReason.HumansByTask, false);
+                    GameManager.Instance.RpcEndGame(GameOverReason.HumansByTask, false);
                 }
             }
         }

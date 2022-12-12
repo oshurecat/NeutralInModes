@@ -20,10 +20,10 @@ namespace NeutralInModes.Patches
                 StartGamePatch.GameStart.IsStart = false;
             }
         }
-        [HarmonyPatch(typeof(ShipStatus), nameof(ShipStatus.CheckEndCriteria))]
+        [HarmonyPatch(typeof(GameManager), nameof(GameManager.CheckEndGameViaTasks))]
         class CheckGameEndPatch
         {
-            public static bool Prefix(ShipStatus __instance)
+            public static bool Prefix(GameManager __instance)
             {
                 return true;
             }

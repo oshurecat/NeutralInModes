@@ -173,6 +173,43 @@ namespace NeutralInModes
     {
         public static void Postfix(GameOptionsMenu __instance)
         {
+            var PlayerSpeedModOption = __instance.Children.FirstOrDefault(x => x.name == "PlayerSpeed").TryCast<NumberOption>();//上限解放
+            if (PlayerSpeedModOption != null) PlayerSpeedModOption.ValidRange = new FloatRange(-20f, 20f);
+
+
+            var killCoolOption = __instance.Children.FirstOrDefault(x => x.name == "KillCooldown").TryCast<NumberOption>();
+            if (killCoolOption != null) killCoolOption.ValidRange = new FloatRange(0.1f, 100f);
+
+            var commonTasksOption = __instance.Children.FirstOrDefault(x => x.name == "NumCommonTasks").TryCast<NumberOption>();
+            if (commonTasksOption != null) commonTasksOption.ValidRange = new FloatRange(0f, 100f);
+
+            var shortTasksOption = __instance.Children.FirstOrDefault(x => x.name == "NumShortTasks").TryCast<NumberOption>();
+            if (shortTasksOption != null) shortTasksOption.ValidRange = new FloatRange(0f, 100f);
+
+            var longTasksOption = __instance.Children.FirstOrDefault(x => x.name == "NumLongTasks").TryCast<NumberOption>();
+            if (longTasksOption != null) longTasksOption.ValidRange = new FloatRange(0f, 100f);
+
+            var CrewLightModOption = __instance.Children.FirstOrDefault(x => x.name == "CrewmateVision").TryCast<NumberOption>();
+            if (CrewLightModOption != null) CrewLightModOption.ValidRange = new FloatRange(-10f, 10f);
+
+            var ImpostorLightModOption = __instance.Children.FirstOrDefault(x => x.name == "ImpostorVision").TryCast<NumberOption>();
+            if (ImpostorLightModOption != null) ImpostorLightModOption.ValidRange = new FloatRange(-10f, 10f);
+
+            var MeetingButtonCoolDownOption = __instance.Children.FirstOrDefault(x => x.name == "EmergencyCooldown").TryCast<NumberOption>();
+            if (MeetingButtonCoolDownOption != null) MeetingButtonCoolDownOption.ValidRange = new FloatRange(-2000f, 1000f);
+
+            var MeetingButtonCountOption = __instance.Children.FirstOrDefault(x => x.name == "EmergencyMeetings").TryCast<NumberOption>();
+            if (MeetingButtonCountOption != null) MeetingButtonCountOption.ValidRange = new FloatRange(-200f, 100f);
+
+            var VotingTimeOption = __instance.Children.FirstOrDefault(x => x.name == "VotingTime").TryCast<NumberOption>();
+            if (VotingTimeOption != null) VotingTimeOption.ValidRange = new FloatRange(-2000f, 1000f);
+
+            var DiscussionTimeOption = __instance.Children.FirstOrDefault(x => x.name == "DiscussionTime").TryCast<NumberOption>();
+            if (DiscussionTimeOption != null) DiscussionTimeOption.ValidRange = new FloatRange(-2000f, 1000f);
+
+
+
+
             if (GameObject.Find("NIMSettings") != null)
             { // Settings setup has already been performed, fixing the title of the tab and returning
                 GameObject.Find("NIMSettings").transform.FindChild("GameGroup").FindChild("Text").GetComponent<TMPro.TextMeshPro>().SetText("<color=#fcc800>N I M </color>の設定");
@@ -384,14 +421,7 @@ namespace NeutralInModes
 
             // Adapt task count for main options
 
-            var commonTasksOption = __instance.Children.FirstOrDefault(x => x.name == "NumCommonTasks").TryCast<NumberOption>();
-            if (commonTasksOption != null) commonTasksOption.ValidRange = new FloatRange(0f, 4f);
 
-            var shortTasksOption = __instance.Children.FirstOrDefault(x => x.name == "NumShortTasks").TryCast<NumberOption>();
-            if (shortTasksOption != null) shortTasksOption.ValidRange = new FloatRange(0f, 23f);
-
-            var longTasksOption = __instance.Children.FirstOrDefault(x => x.name == "NumLongTasks").TryCast<NumberOption>();
-            if (longTasksOption != null) longTasksOption.ValidRange = new FloatRange(0f, 15f);
         }
     }
 
@@ -495,12 +525,12 @@ namespace NeutralInModes
     }
 
 
-    [HarmonyPatch]
+    [Harmony]
     class GameOptionsDataPatch
     {
         private static IEnumerable<MethodBase> TargetMethods()
         {
-            return typeof(GameOptionsData).GetMethods().Where(x => x.ReturnType == typeof(string) && x.GetParameters().Length == 1 && x.GetParameters()[0].ParameterType == typeof(int));
+            return typeof(IGameOptionsExtensions).GetMethods().Where(x => x.ReturnType == typeof(string) && x.GetParameters().Length == 2 && x.GetParameters()[1].ParameterType == typeof(int));
         }
 
         private static string buildRoleOptions()

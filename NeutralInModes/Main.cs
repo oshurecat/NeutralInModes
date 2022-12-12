@@ -26,6 +26,7 @@ namespace NeutralInModes
             Logger = Log;
             Instance = this;
             Harmony.PatchAll();
+            CustomOptionHolder.Load();
         }
     }
 }

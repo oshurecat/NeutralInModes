@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\NeutralInModes",
+    "\\NeutralInModes\\Patches",
+    "\\NeutralInModes\\Patches\\GameOptions",
+    "\\NeutralInModes\\Patches\\PlayerPatch",
+    "\\REDAMEs"
   ],
-  "PreviewInSolutionExplorer": false
+  "SelectedNode": "\\REDAMEs\\README_jp.md",
+  "PreviewInSolutionExplorer": true
 }

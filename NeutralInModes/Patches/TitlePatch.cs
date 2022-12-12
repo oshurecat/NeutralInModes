@@ -54,7 +54,6 @@ namespace NeutralInModes.Patches
                     var TitleLogo = new GameObject("bannerLogo");
                     TitleLogo.transform.position = Vector3.up;
                     var renderer = TitleLogo.AddComponent<SpriteRenderer>();
-                    //多分タイトル消えたのここなんだよな...
                     renderer.sprite = Helpers.LoadSpriteFromResources("NeutralInModes.Resources.NIMimage.png", 250f);
                     DestroyableSingleton<ModManager>.Instance.ShowModStamp();//モッドスタンプ召喚
                 }

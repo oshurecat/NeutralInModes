@@ -222,7 +222,7 @@ namespace NeutralInModes
             }
             if (GameObject.Find("NeutralSettings") != null)
             {
-                GameObject.Find("NeutralSettings").transform.FindChild("GameGroup").FindChild("Text").GetComponent<TMPro.TextMeshPro>().SetText("<color=#c0c0c0>第三陣営</color>の設定");
+                GameObject.Find("NeutralSettings").transform.FindChild("GameGroup").FindChild("Text").GetComponent<TMPro.TextMeshPro>().SetText("<color=#c0c0c0>ニュートラル</color>の設定");
                 return;
             }
             if (GameObject.Find("CrewmateSettings") != null)
@@ -378,7 +378,7 @@ namespace NeutralInModes
                 UnityEngine.Object.Destroy(option.gameObject);
             List<OptionBehaviour> crewmateOptions = new List<OptionBehaviour>();
 
-             foreach (OptionBehaviour option in modifierMenu.GetComponentsInChildren<OptionBehaviour>())
+            foreach (OptionBehaviour option in modifierMenu.GetComponentsInChildren<OptionBehaviour>())
                 UnityEngine.Object.Destroy(option.gameObject);
             List<OptionBehaviour> modifierOptions = new List<OptionBehaviour>();
 
@@ -537,8 +537,10 @@ namespace NeutralInModes
         {
             var impRoles = buildOptionsOfType(CustomOption.CustomOptionType.Impostor, true) + "\n";
             var neutralRoles = buildOptionsOfType(CustomOption.CustomOptionType.Neutral, true) + "\n";
-            var crewRoles = buildOptionsOfType(CustomOption.CustomOptionType.Crewmate, true);
-            return impRoles + neutralRoles + crewRoles;
+            var crewRoles = buildOptionsOfType(CustomOption.CustomOptionType.Crewmate, true) + "\n";
+            var modifierRoles = buildOptionsOfType(CustomOption.CustomOptionType.Modifier, true);
+
+            return impRoles + neutralRoles + crewRoles + modifierRoles;
         }
 
         private static string buildOptionsOfType(CustomOption.CustomOptionType type, bool headerOnly)
@@ -624,7 +626,7 @@ namespace NeutralInModes
                     hudString += "Page 5: インポスターの設定 \n" + buildOptionsOfType(CustomOption.CustomOptionType.Impostor, false);
                     break;
                 case 5:
-                    hudString += "Page 6: 第三陣営の設定 \n" + buildOptionsOfType(CustomOption.CustomOptionType.Neutral, false);
+                    hudString += "Page 6: ニュートラルの設定 \n" + buildOptionsOfType(CustomOption.CustomOptionType.Neutral, false);
                     break;
                 case 6:
                     hudString += "Page 7: 両陣営可能役職の設定 \n" + buildOptionsOfType(CustomOption.CustomOptionType.Modifier, false);

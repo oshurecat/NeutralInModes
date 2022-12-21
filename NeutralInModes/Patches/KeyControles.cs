@@ -24,6 +24,7 @@ namespace NeutralInModes.Patches
                 if (StartGamePatch.GameStart.IsStart)
                 {
                     GameManager.Instance.RpcEndGame(GameOverReason.HumansByTask, false);
+                    
                 }
             }
         }
